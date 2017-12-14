@@ -1,0 +1,22 @@
+{
+  "name": "dsxs",
+  "version": "0.1.0",
+  "summary": "A short description of dsxs.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jshih/dsxs",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jshih": "j-shih@winas.jp"
+  },
+  "source": {
+    "git": "https://github.com/jshih/dsxs.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "dsxs/Classes/**/*"
+}

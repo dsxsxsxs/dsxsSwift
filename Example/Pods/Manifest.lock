@@ -1,0 +1,16 @@
+PODS:
+  - dsxs (0.1.0)
+
+DEPENDENCIES:
+  - dsxs (from `../`)
+
+EXTERNAL SOURCES:
+  dsxs:
+    :path: ../
+
+SPEC CHECKSUMS:
+  dsxs: 638221ff9dfd3c654a7272c539dcb1e8ceccef37
+
+PODFILE CHECKSUM: 8a220fc2012d3c0774be1236bcf06dd566b4be75
+
+COCOAPODS: 1.3.1

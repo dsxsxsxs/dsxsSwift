@@ -17,6 +17,8 @@ class Tests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
+        let today = Date.today
+        XCTAssert(Date(today.toString()) != nil, "Pass")
     }
     
     func testPerformanceExample() {

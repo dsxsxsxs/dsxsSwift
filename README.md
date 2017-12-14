@@ -22,7 +22,7 @@ pod 'dsxs'
 
 ## Author
 
-jshih, j-shih@winas.jp
+dsxsxsxs, dsxsxsxs@gmail.com
 
 ## License
 

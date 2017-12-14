@@ -1,0 +1,6 @@
+framework module dsxs {
+  umbrella header "dsxs-umbrella.h"
+
+  export *
+  module * { export * }
+}
