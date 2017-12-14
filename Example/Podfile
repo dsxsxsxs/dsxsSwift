@@ -1,0 +1,6 @@
+use_frameworks!
+target 'dsxs_Tests' do
+  pod 'dsxs', :path => '../'
+  
+  
+end
