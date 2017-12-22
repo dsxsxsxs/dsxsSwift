@@ -1,6 +1,6 @@
 # dsxs
 
-[![CI Status](http://img.shields.io/travis/jshih/dsxs.svg?style=flat)](https://travis-ci.org/jshih/dsxs)
+[![CI Status](https://travis-ci.org/dsxsxsxs/dsxsSwift.svg?style=flat)](https://travis-ci.org/dsxsxsxs/dsxsSwift)
 [![Version](https://img.shields.io/cocoapods/v/dsxs.svg?style=flat)](http://cocoapods.org/pods/dsxs)
 [![License](https://img.shields.io/cocoapods/l/dsxs.svg?style=flat)](http://cocoapods.org/pods/dsxs)
 [![Platform](https://img.shields.io/cocoapods/p/dsxs.svg?style=flat)](http://cocoapods.org/pods/dsxs)
