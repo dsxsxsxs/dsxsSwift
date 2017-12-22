@@ -13,6 +13,7 @@
 		3DD16D563CA88AC38CDF7544BD515FDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		68C506FCB8BE797BF1DA9B473210D432 /* dsxs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F894A4FF796A905945449650878EF3 /* dsxs.swift */; };
 		8736BEFE1A5A288DD0ADEE80413D72D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A19CBB681FED52A400686CDB /* EventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19CBB671FED52A400686CDB /* EventEmitter.swift */; };
 		A5A939A99B733840E7625DBC91551186 /* dsxs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EF59BAD34F838D8968DBB608569B95 /* dsxs-dummy.m */; };
 		DCC33A5C06461EA03CC822CBF26EF7AC /* Pods-dsxs_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BC80E13BE73A67920DD78F51817346 /* Pods-dsxs_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9900A194C453125AD4E1217D4F7521E /* dsxs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A06763A7C2BB101383508DA63E84AC /* dsxs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +46,7 @@
 		8BB1CD2647E8780555213D9023802759 /* dsxs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dsxs.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C2A22555C14287B23388C9B5CFDE8E7 /* Pods-dsxs_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-dsxs_Tests.modulemap"; sourceTree = "<group>"; };
+		A19CBB671FED52A400686CDB /* EventEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventEmitter.swift; path = dsxs/Classes/EventEmitter.swift; sourceTree = "<group>"; };
 		A30D0B6668762E6452A6A3A7FAC5468A /* Pods-dsxs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dsxs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B88101EAED21A7749AFCA5FD4E187D41 /* Pods-dsxs_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dsxs_Tests-dummy.m"; sourceTree = "<group>"; };
 		C06C7EFBE1EBADA30BD0FA45909ACDD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		A0CB889037FCDE18B55061CC03E9FE54 /* dsxs */ = {
 			isa = PBXGroup;
 			children = (
+				A19CBB671FED52A400686CDB /* EventEmitter.swift */,
 				145058F41FE22ACC00A2D3AA /* dsxs+Date.swift */,
 				145058F61FE22B5900A2D3AA /* dsxs+String.swift */,
 				F3F894A4FF796A905945449650878EF3 /* dsxs.swift */,
@@ -270,6 +273,7 @@
 				145058F71FE22B5900A2D3AA /* dsxs+String.swift in Sources */,
 				A5A939A99B733840E7625DBC91551186 /* dsxs-dummy.m in Sources */,
 				68C506FCB8BE797BF1DA9B473210D432 /* dsxs.swift in Sources */,
+				A19CBB681FED52A400686CDB /* EventEmitter.swift in Sources */,
 				145058F51FE22ACC00A2D3AA /* dsxs+Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
